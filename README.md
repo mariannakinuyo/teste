@@ -1,6 +1,8 @@
-## Getting Started
+## Teste
 
-Para desenvolver e rodar o projeto:
+Projeto desenvolvido com React, Next.js, TypeScript, ESLint e Styled Components.
+
+### Para desenvolver e rodar o projeto:
 ```
 yarn
 yarn dev
