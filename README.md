@@ -1,7 +1,8 @@
 ## Getting Started
 
 Para desenvolver e rodar o projeto:
-
+```
+yarn
 yarn dev
 ```
 
