@@ -22,11 +22,14 @@ export const NavMenu = styled.header`
     padding: 0px 64px;
   }
 
-  a {
-    &:hover {
-      color: ${theme.colors.lightprimary};
-    }
+  a:hover {
+    color: ${theme.colors.lightprimary};
   }
+`
+
+export const LinkLogo = styled.a`
+  margin: 0px;
+  line-height: 9px;
 `
 
 export const NavLeft = styled.div`
@@ -39,16 +42,15 @@ export const NavLeft = styled.div`
     justify-content: unset;
     width: auto;
   }
+`
 
-  a {
-    margin: auto;
-  }
+export const NavLink = styled.a`
+  margin: auto;
 `
 
 export const NavList = styled.ul`
   align-items: center;
   padding: 0px;
-
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
@@ -64,7 +66,6 @@ export const NavList = styled.ul`
     display: flex;
     margin-left: 62px;
     width: auto;
-
     clear: none;
     float: right;
     max-height: none;

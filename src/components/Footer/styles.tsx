@@ -150,22 +150,22 @@ export const FooterCr = styled.section`
     height: 64px;
     align-items: center;
   }
+`
 
-  p {
-    margin: 20px 0px;
-    font-size: 14px;
-    line-height: 22px;
+export const TextCr = styled.p`
+  margin: 20px 0px;
+  font-size: 14px;
+  line-height: 22px;
 
-    @media (min-width: 768px) {
-      grid-column: 2 / 10;
-      margin: 0px;
-    }
+  @media (min-width: 768px) {
+    grid-column: 2 / 10;
+    margin: 0px;
   }
+`
 
-  span {
-    color: ${theme.colors.lightprimary};
-    font-weight: 800;
-  }
+export const HightTextCr = styled.span`
+  color: ${theme.colors.lightprimary};
+  font-weight: 800;
 `
 
 export const FooterListCr = styled.ul`

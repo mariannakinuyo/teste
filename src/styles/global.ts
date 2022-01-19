@@ -82,6 +82,7 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     color: inherit;
     font-weight: 400;
+    transition: all 0.2s ease-in-out 0s;
   }
 
   button {

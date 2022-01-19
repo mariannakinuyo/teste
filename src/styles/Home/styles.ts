@@ -172,9 +172,30 @@ export const ThirdText = styled.div`
   @media (min-width: 1200px) {
     grid-column: 2 / 10;
   }
+`
 
-  h1 {
-    margin-bottom: 24px;
+export const ThirdTitle = styled.h2`
+  font-family: Nunito;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-bottom: 24px;
+
+  @media (min-width: 768px) {
+    font-size: 72px;
+    line-height: 80px;
+  }
+`
+
+export const ThirdSub = styled.h3`
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+
+  @media (min-width: 768px) {
+    font-size: 40px;
+    line-height: 56px;
   }
 `
 

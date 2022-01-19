@@ -13,6 +13,8 @@ import {
     FooterItemCr,
     FooterLink,
     FooterTitle,
+    TextCr,
+    HightTextCr,
 } from "./styles";
 import AppleStore from '../../assets/apple_store_icon.svg';
 import PlayStore from '../../assets/play_store_icon.svg';
@@ -86,7 +88,6 @@ export default function Footer(): JSX.Element {
             <BtnWrap>
               <FooterLink href="">
                 <BtnStore>
-                  {/* TODO: */}
                   <PlayStore alt="Play Store" />
                   <span>Play Store</span>
                 </BtnStore>
@@ -114,7 +115,7 @@ export default function Footer(): JSX.Element {
       </FooterBg>
       <FooterCr>
         <FooterContainer>
-          <p><span>Cora Pagamentos LTDA.</span> 34.052.649/0001-78 - Rua Gomes de Carvalho, 1629 - 2º andar - Vila Olímpia, São Paulo, SP</p>
+          <TextCr><HightTextCr>Cora Pagamentos LTDA.</HightTextCr> 34.052.649/0001-78 - Rua Gomes de Carvalho, 1629 - 2º andar - Vila Olímpia, São Paulo, SP</TextCr>
           <FooterListCr>
             <FooterItemCr>
               <a href="/">

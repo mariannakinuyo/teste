@@ -27,7 +27,9 @@ import {
   ThirdSection,
   ThirdText,
   WrapBtn,
-  SecondText
+  SecondText,
+  ThirdTitle,
+  ThirdSub
 } from '../styles/Home/styles'
 
 function Home(): JSX.Element {
@@ -64,8 +66,8 @@ function Home(): JSX.Element {
       <ThirdSection>
         <Container>
           <ThirdText>
-            <h1>Sed eu leo non eros max?</h1>
-            <h2>Quis rutrum sapien</h2>
+            <ThirdTitle>Sed eu leo non eros max?</ThirdTitle>
+            <ThirdSub>Quis rutrum sapien</ThirdSub>
           </ThirdText>
         </Container>
       </ThirdSection>

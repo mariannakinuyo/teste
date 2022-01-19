@@ -1,6 +1,7 @@
 import React from 'react'
 import {
   NavMenu,
+  LinkLogo,
   BtnNav,
   NavLeft,
   NavList,
@@ -9,6 +10,7 @@ import {
   NavIcon,
   NavLabel,
   NavInput,
+  NavLink,
 } from "./styles";
 import { GlobalStyle } from "../../styles/global";
 import LogoCora from '../../assets/logo_cora.svg'
@@ -19,26 +21,28 @@ export default function Footer(): JSX.Element {
       <GlobalStyle />
       <NavMenu>
         <NavLeft>
-          <LogoCora />
+          <LinkLogo href="/">
+            <LogoCora />
+          </LinkLogo>
           <NavInput type="checkbox" id="menu-btn" />
           <NavLabel htmlFor="menu-btn">
           </NavLabel>
           <NavIcon></NavIcon>
           <NavList>
             <NavItem>
-              <a href="/">Conta digital</a>
+              <NavLink href="/">Conta digital</NavLink>
             </NavItem>
             <NavItem>
-              <a href="/">Cartão</a>
+              <NavLink href="/">Cartão</NavLink>
             </NavItem>
             <NavItem>
-              <a href="/">Gestão de Cobrança</a>
+              <NavLink href="/">Gestão de Cobrança</NavLink>
             </NavItem>
             <NavItem>
-              <a href="/">Sobre nós</a>
+              <NavLink href="/">Sobre nós</NavLink>
             </NavItem>
             <NavItem>
-              <a href="/">Soluções Integradas</a>
+              <NavLink href="/">Soluções Integradas</NavLink>
             </NavItem>
           </NavList>
         </NavLeft>
